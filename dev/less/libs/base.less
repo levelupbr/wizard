@@ -1,0 +1,60 @@
+/*=================================
+=            Variables            =
+=================================*/
+@base-path: 'wizard/';
+
+@color-action:  #00c1ff;
+@color-success: #17fe58;
+@color-warning: #fff25d;
+@color-error:   #ff0000;
+/*=====  End of Variables  ======*/
+
+
+/*=============================
+=            Fonts            =
+=============================*/
+@font-face {
+    font-family: 'ExoLight';
+    src: local('ExoLight'), url('@{base-path}fonts/ExoLight/ExoLight.eot');
+    src: local('ExoLight'), url('@{base-path}fonts/ExoLight/ExoLight.eot') format('embedded-opentype'),
+         local('ExoLight'), url('@{base-path}fonts/ExoLight/ExoLight.woff2') format('woff2'),
+         local('ExoLight'), url('@{base-path}fonts/ExoLight/ExoLight.woff') format('woff'),
+         local('ExoLight'), url('@{base-path}fonts/ExoLight/ExoLight.ttf') format('truetype'),
+         local('ExoLight'), url('@{base-path}fonts/ExoLight/ExoLight.svg#ExoLight') format('svg');
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src: local('RobotoLight'), url('@{base-path}fonts/RobotoLight/RobotoLight.eot');
+    src: local('RobotoLight'), url('@{base-path}fonts/RobotoLight/RobotoLight.eot') format('embedded-opentype'),
+         local('RobotoLight'), url('@{base-path}fonts/RobotoLight/RobotoLight.woff2') format('woff2'),
+         local('RobotoLight'), url('@{base-path}fonts/RobotoLight/RobotoLight.woff') format('woff'),
+         local('RobotoLight'), url('@{base-path}fonts/RobotoLight/RobotoLight.ttf') format('truetype'),
+         local('RobotoLight'), url('@{base-path}fonts/RobotoLight/RobotoLight.svg#RobotoLight') format('svg');
+}
+/*=====  End of Fonts  ======*/
+
+
+/*==============================
+=            Mixins            =
+==============================*/
+.roboto(@size)   { font: @size 'Roboto'   }
+.exo-light(@size){ font: @size 'ExoLight' }
+.transition(@transition){
+    -webkit-transition: @transition;
+       -moz-transition: @transition;
+         -o-transition: @transition;
+            transition: @transition;
+}
+.transform(@transform){
+    -webkit-transform: @transform;
+       -moz-transform: @transform;
+         -o-transform: @transform;
+            transform: @transform;
+}
+.animation(@animation){
+    -webkit-animation: @animation;
+       -moz-animation: @animation;
+         -o-animation: @animation;
+            animation: @animation;
+}
+/*=====  End of Mixins  ======*/

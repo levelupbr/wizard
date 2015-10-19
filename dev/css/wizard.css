@@ -1,0 +1,50 @@
+/*=================================
+=            Variables            =
+=================================*/
+/*=====  End of Variables  ======*/
+/*=============================
+=            Fonts            =
+=============================*/
+@font-face {
+  font-family: 'ExoLight';
+  src: local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.eot');
+  src: local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.eot') format('embedded-opentype'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.woff2') format('woff2'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.woff') format('woff'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.ttf') format('truetype'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.svg#ExoLight') format('svg');
+}
+@font-face {
+  font-family: 'RobotoLight';
+  src: local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.eot');
+  src: local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.eot') format('embedded-opentype'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.woff2') format('woff2'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.woff') format('woff'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.ttf') format('truetype'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.svg#RobotoLight') format('svg');
+}
+/*=====  End of Fonts  ======*/
+/*==============================
+=            Mixins            =
+==============================*/
+/*=====  End of Mixins  ======*/
+
+/*=============================
+=            Reset            =
+=============================*/
+/* line 4, dev/less/libs/reset.less */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* line 8, dev/less/libs/reset.less */
+li {
+  list-style: none;
+}
+/* line 9, dev/less/libs/reset.less */
+a {
+  text-decoration: none;
+}
+/* line 10, dev/less/libs/reset.less */
+button {
+  outline: none;
+  cursor: pointer;
+}
+/* line 14, dev/less/libs/reset.less */
+input:focus,
+textarea:focus {
+  outline: none;
+}
+/*=====  End of Reset  ======*/
