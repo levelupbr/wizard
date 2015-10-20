@@ -1,7 +1,7 @@
 {
   "name": "Wizard",
   "version": "1.0.0",
-  "description": "This is a CSS framework focused on using interfaces to Level Up",
+  "description": "This is a CSS framework focused on the use of interfaces for project Level Up",
   "repository": {
     "type": "git",
     "url": "https://github.com/levelupbr/wizard.git"
