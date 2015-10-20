@@ -26,13 +26,13 @@
          local('RobotoLight'), url('@{base-path}fonts/RobotoLight/RobotoLight.svg#RobotoLight') format('svg');
 }
 @font-face {
-    font-family: 'ExoLight';
-    src: local('ExoLight'), url('@{base-path}fonts/ExoLight/ExoLight.eot');
-    src: local('ExoLight'), url('@{base-path}fonts/ExoLight/ExoLight.eot') format('embedded-opentype'),
-         local('ExoLight'), url('@{base-path}fonts/ExoLight/ExoLight.woff2') format('woff2'),
-         local('ExoLight'), url('@{base-path}fonts/ExoLight/ExoLight.woff') format('woff'),
-         local('ExoLight'), url('@{base-path}fonts/ExoLight/ExoLight.ttf') format('truetype'),
-         local('ExoLight'), url('@{base-path}fonts/ExoLight/ExoLight.svg#ExoLight') format('svg');
+    font-family: 'ExoRegular';
+    src: local('ExoRegular'), url('@{base-path}fonts/ExoRegular/ExoRegular.eot');
+    src: local('ExoRegular'), url('@{base-path}fonts/ExoRegular/ExoRegular.eot') format('embedded-opentype'),
+         local('ExoRegular'), url('@{base-path}fonts/ExoRegular/ExoRegular.woff2') format('woff2'),
+         local('ExoRegular'), url('@{base-path}fonts/ExoRegular/ExoRegular.woff') format('woff'),
+         local('ExoRegular'), url('@{base-path}fonts/ExoRegular/ExoRegular.ttf') format('truetype'),
+         local('ExoRegular'), url('@{base-path}fonts/ExoRegular/ExoRegular.svg#ExoRegular') format('svg');
 }
 /*=====  End of Fonts  ======*/
 
@@ -44,7 +44,7 @@
     font: @size 'RobotoLight';
 }
 .exo(@size: 1em) {
-    font: @size 'ExoLight';
+    font: @size 'ExoRegular';
 }
 .transition(@transition){
     -webkit-transition: @transition;

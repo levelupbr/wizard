@@ -11,9 +11,9 @@
   src: local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.eot') format('embedded-opentype'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.woff2') format('woff2'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.woff') format('woff'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.ttf') format('truetype'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.svg#RobotoLight') format('svg');
 }
 @font-face {
-  font-family: 'ExoLight';
-  src: local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.eot');
-  src: local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.eot') format('embedded-opentype'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.woff2') format('woff2'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.woff') format('woff'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.ttf') format('truetype'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.svg#ExoLight') format('svg');
+  font-family: 'ExoRegular';
+  src: local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.eot');
+  src: local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.eot') format('embedded-opentype'), local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.woff2') format('woff2'), local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.woff') format('woff'), local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.ttf') format('truetype'), local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.svg#ExoRegular') format('svg');
 }
 /*=====  End of Fonts  ======*/
 /*==============================
@@ -73,9 +73,9 @@ textarea:focus {
   src: local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.eot') format('embedded-opentype'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.woff2') format('woff2'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.woff') format('woff'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.ttf') format('truetype'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.svg#RobotoLight') format('svg');
 }
 @font-face {
-  font-family: 'ExoLight';
-  src: local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.eot');
-  src: local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.eot') format('embedded-opentype'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.woff2') format('woff2'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.woff') format('woff'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.ttf') format('truetype'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.svg#ExoLight') format('svg');
+  font-family: 'ExoRegular';
+  src: local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.eot');
+  src: local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.eot') format('embedded-opentype'), local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.woff2') format('woff2'), local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.woff') format('woff'), local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.ttf') format('truetype'), local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.svg#ExoRegular') format('svg');
 }
 /*=====  End of Fonts  ======*/
 /*==============================
@@ -145,9 +145,9 @@ textarea:focus {
   src: local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.eot') format('embedded-opentype'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.woff2') format('woff2'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.woff') format('woff'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.ttf') format('truetype'), local('RobotoLight'), url('wizard/fonts/RobotoLight/RobotoLight.svg#RobotoLight') format('svg');
 }
 @font-face {
-  font-family: 'ExoLight';
-  src: local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.eot');
-  src: local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.eot') format('embedded-opentype'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.woff2') format('woff2'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.woff') format('woff'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.ttf') format('truetype'), local('ExoLight'), url('wizard/fonts/ExoLight/ExoLight.svg#ExoLight') format('svg');
+  font-family: 'ExoRegular';
+  src: local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.eot');
+  src: local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.eot') format('embedded-opentype'), local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.woff2') format('woff2'), local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.woff') format('woff'), local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.ttf') format('truetype'), local('ExoRegular'), url('wizard/fonts/ExoRegular/ExoRegular.svg#ExoRegular') format('svg');
 }
 /*=====  End of Fonts  ======*/
 /*==============================
@@ -166,52 +166,51 @@ textarea:focus {
 /* line 13, dev/less/app/typography.less */
 .fnt-exo,
 .childrens-fnt-exo * {
-  font: 1em 'ExoLight';
+  font: 1em 'ExoRegular';
   color: #ffffff;
   text-transform: uppercase;
-  font-weight: bold;
 }
 /*=====  End of Typography  ======*/
 /*==============================
 =            Colors            =
 ==============================*/
-/* line 26, dev/less/app/typography.less */
+/* line 25, dev/less/app/typography.less */
 .clr-light {
   color: #ffffff;
 }
-/* line 27, dev/less/app/typography.less */
+/* line 26, dev/less/app/typography.less */
 .clr-standard {
   color: #999999;
 }
-/* line 29, dev/less/app/typography.less */
+/* line 28, dev/less/app/typography.less */
 .clr-action {
   color: #00c1ff;
 }
-/* line 30, dev/less/app/typography.less */
+/* line 29, dev/less/app/typography.less */
 .clr-success {
   color: #17fe58;
 }
-/* line 31, dev/less/app/typography.less */
+/* line 30, dev/less/app/typography.less */
 .clr-warning {
   color: #fff25d;
 }
-/* line 32, dev/less/app/typography.less */
+/* line 31, dev/less/app/typography.less */
 .clr-error {
   color: #ff0000;
 }
-/* line 34, dev/less/app/typography.less */
+/* line 33, dev/less/app/typography.less */
 .bg-action {
   background-color: #00c1ff;
 }
-/* line 35, dev/less/app/typography.less */
+/* line 34, dev/less/app/typography.less */
 .bg-success {
   background-color: #17fe58;
 }
-/* line 36, dev/less/app/typography.less */
+/* line 35, dev/less/app/typography.less */
 .bg-warning {
   background-color: #fff25d;
 }
-/* line 37, dev/less/app/typography.less */
+/* line 36, dev/less/app/typography.less */
 .bg-error {
   background-color: #ff0000;
 }
